@@ -3371,6 +3371,7 @@ class WhoisSite(WhoisEntry):
 
     def __init__(self, domain, text):
         if "DOMAIN NOT FOUND" in text:
+            pass
 
           
 class WhoisEdu(WhoisEntry):
